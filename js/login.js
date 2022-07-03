@@ -1,9 +1,12 @@
+const form = document.querySelector('#form');
+
+
 (function() {
-    commentForm.addEventListener('submit', function(e) {
+    form.addEventListener('submit', function(e) {
     e.preventDefault();
-    const formData = new FormData(commentForm);
+    const formData = new FormData(form);
     const payload = new URLSearchParams(formData);
-    fetch('https://run.mocky.io/v3/ffd9f436-5b1e-4ca2-b31d-7c81efdad01c', {
+    fetch('http://localhost:5000/loginData', {
     method: 'POST',
     body: payload,
     })

@@ -1,0 +1,23 @@
+{
+  "name": "blog-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server": "json-server --watch article.json --port 5000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vitalii-Hlushchenko/blog.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Vitalii-Hlushchenko/blog/issues"
+  },
+  "homepage": "https://github.com/Vitalii-Hlushchenko/blog#readme",
+  "dependencies": {
+    "json-server": "^0.17.0"
+  }
+}

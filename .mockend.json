@@ -1,16 +1,17 @@
 {
-  "results": [{
-    "nameChunk1": [{
-      "name1": "Sean",
-      "name2": "Noah"
-    }],
-    "nameChunk2": [{
-      "name1": "Joseph",
-      "name2": "Sam"
-    }]
-  }]
+  "Post": {
+    "title": { "string": {} },
+    "comments": {
+      "hasMany": "Comment"
+    }
+  },
+  "Comment": {
+    "body": { "string": {} },
+    "post": {
+      "belongsTo": "Post"
+    }
+  }
 }
-	
   
   
   

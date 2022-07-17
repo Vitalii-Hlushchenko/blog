@@ -6,7 +6,7 @@ const form = document.querySelector('#form');
     e.preventDefault();
     const formData = new FormData(form);
     const payload = new URLSearchParams(formData);
-    fetch('http://localhost:5000/loginData', {
+    fetch('https://mockend.com/org/repo/users', {
     method: 'POST',
     body: payload,
     })

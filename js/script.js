@@ -4,7 +4,7 @@ const articleContainer = document.querySelector('#article-container');
 getProducts();
 
 async function getProducts() {
-    const response = await fetch('https://run.mocky.io/v3/ffd9f436-5b1e-4ca2-b31d-7c81efdad01c');
+    const response = await fetch('https://mockend.com/org/repo/products');
     const productsArray = await response.json();
 	renderProducts(productsArray);
 

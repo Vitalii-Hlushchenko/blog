@@ -6,7 +6,7 @@ const form = document.querySelector('#form');
     e.preventDefault();
     const formData = new FormData(form);
     const payload = new URLSearchParams(formData);
-    fetch('https://mockend.com/org/repo/users', {
+    fetch('https://jsonplaceholder.typicode.com/posts', {
     method: 'POST',
     body: payload,
     })

@@ -1,14 +1,13 @@
-{ 
-  "users": { 
-    "login": { "string": {} },
-        "password": { "string": {} },
+{
+  "posts":
+    {
+      
+    }
+  
 
-          
 }
-
-
-
-
+	
+  
   
   
   

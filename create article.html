@@ -23,23 +23,28 @@
       <menu class="admin-menu"></menu>
       <section class="section-create-article">
           <div class="create-article-title">Create article</div>
-          <form>
+          <form id="create-form" action="admin.html">
           <div class="article-desctiption">
               <div class="form-item">
-              <input class="article-input" type="text" value="Article title" >
-              <input class="article-input" type="text" value="Article author">
+              <input class="article-input" type="text" placeholder="Article title" name="title" >
+              <input class="article-input" type="text" placeholder="Article author" name="author">
             </div>
               <div class="form-item">
-              <input class="article-input" type="text" value="Date of publication">
-              <input class="article-input" type="text" value="Image">
+              <input class="article-input" type="text" placeholder="Date of publication" name="publicationDate">
+              <input class="article-input" type="text" placeholder="Image" name="img">
             </div>
           </div>
           <div class="article-content">
-            <input class="article-input" type="text" value="Article content" >
+            <input class="article-input content--input" type="text" placeholder="Article content" name="content">
 
           </div>
+          <div class="create-article-button">
+          <button onclick="location.href='admin.html'" class="create-btn" type="submit" >Create</button>
+        </div>
         </form>
       </section>
     </div>
+
+    <script src="js/admin.js"></script>
   </body>
 </html>

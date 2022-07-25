@@ -1,13 +1,11 @@
-{
-  "posts":[
-    {
-      "title": "zagolovok",
-      "desc": "y the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that....",
-      "datePub": 26
-    }
-  ]
+{ 
+  "Post": { "title": { "string": {} },
+           "comments": { "hasMany": "Comment" } 
+          } }
 
-}
+
+
+
   
   
   

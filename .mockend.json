@@ -1,10 +1,14 @@
 {
-  "Posts": {
+  "Post": {
     "title": { "string": {} },
-    "autor": { "string": {} },
-    "publicationDate": { "string": {} },
-    "picture": { "regexp": "https://…" },
-    "content": { "string": {} }
-
+    "comments": {
+      "hasMany": "Comment"
+    }
+  },
+  "Comment": {
+    "body": { "string": {} },
+    "post": {
+      "belongsTo": "Post"
+    }
   }
 }

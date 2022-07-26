@@ -1,0 +1,10 @@
+{
+  "Posts": {
+    "title": { "string": {} },
+    "autor": { "string": {} },
+    "publicationDate": { "string": {} },
+    "picture": { "regexp": "https://…" }
+    "content": { "string": {} }
+
+  }
+}

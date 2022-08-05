@@ -1,35 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Admin dashboard</title>
     <link
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="css/admin.css"/>
-</head>
-<body>
+    <link rel="stylesheet" href="css/admin.css" />
+  </head>
+  <body>
     <div class="admin-container">
-    <nav class="admin-nav">
+      <nav class="admin-nav">
         <div class="admin-logo">
-            <img src="img/admin logo.svg">
-            <a><img src="img/menu-toggle.svg"></a>
+          <img src="img/admin logo.svg" />
+          <a><img src="img/menu-toggle.svg" /></a>
         </div>
         <div class="line"></div>
-    </nav>
-    <menu class="admin-menu">hg</menu>
-    <section class="section-articles">
+      </nav>
+      <menu class="admin-menu"></menu>
+      <section class="section-articles">
         <div class="section-articles-title">
-            <p>Articles</p>
-            <button class="create-btn">Create article</button>
+          <p>Articles</p>
+          <button
+            onclick="location.href='create article.html'"
+            class="create-btn"
+          >
+            Create article
+          </button>
         </div>
-        <div class="articles-container">
-            <a></a>
+        <div id="articles-container" class="articles-container">
+          <!-- <div class="article">
+            <p>Title</p>
+            <div class="article-admin-item">
+              <p class="article-text">dfgdfgdg</p>
+              <button class="edit-btn">Edit</button>
+              <button class="delete-btn">Delete</button>
+            </div>
+          </div> -->
+          
         </div>
-    </section>
-</div>
-</body>
+      </section>
+    </div>
+    <script src="js/admin.js"></script>
+    
+  </body>
 </html>

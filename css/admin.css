@@ -134,9 +134,67 @@
 .section-articles-title{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 2rem;
 }
 
+.articles-container{
+    padding: 2rem;
+
+}
+
+.article-text{
+    font-weight: 100;
+    line-height: 3.5rem;
+    font-size: 1.6rem;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 0.4rem;
+}
+
+.article-admin-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.delete-btn{
+    height: 3.2rem;
+    background-color: #d82020;
+    color: #fff;
+    border: none;
+    padding: 0.6rem;
+    border-radius: 4px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.2s all;
+}
+
+.delete-btn:hover,
+.delete-btn:active{
+    color: #000;
+    
+}
+
+.edit-btn{
+    height: 3.2rem;
+    background-color: #0061F7;
+    color: #fff;
+    border: none;
+    padding: 0.6rem;
+    border-radius: 4px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.2s all;
+    margin: 0 0.5rem;
+}
+.edit-btn:hover,
+.edit-btn:active{
+    color: #000;
+    
+}
+.articles-container ,
 .section-articles-title p{
     font-weight: 700;
     font-size: 2.4rem;
@@ -159,6 +217,10 @@
     color: #fff;
 }
 
+
+.article{
+    margin-bottom: 1rem;
+}
 
 /* *****CREATE ARTICLE PAGE***** */
 
